@@ -16,7 +16,7 @@ Sell digital gift cards redeemed through WooCommerce's own native coupon field -
 
 HDWebmobile Gift Cards turns any simple WooCommerce product into a digital gift card. Flag a product as a gift card, and completing an order for it issues a unique, randomly generated code by email -- one code per unit purchased. Customers redeem a code exactly the way they already redeem a discount coupon: by typing it into WooCommerce's own "Have a coupon?" field at checkout. There is no new redemption screen to learn, and it works on both the classic cart/checkout and the Block Checkout.
 
-A leading competing gift-card plugin has a disclosed CVSS 9.8 unauthenticated arbitrary-file-upload vulnerability. This plugin has zero file-upload surface at all -- every gift card code is generated server-side with PHP's cryptographically secure random_bytes(), never accepted as user-supplied input for the code's value, closing off that entire vulnerability class by construction.
+Arbitrary file upload is one of the most severe vulnerability classes a store plugin can have. This plugin has zero file-upload surface at all -- every gift card code is generated server-side with PHP's cryptographically secure random_bytes(), never accepted as user-supplied input for the code's value, closing off that entire vulnerability class by construction.
 
 = Key Features =
 * Turn any simple product into a gift card with a single checkbox -- automatically forced virtual, no shipping involved
