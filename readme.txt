@@ -34,6 +34,9 @@ Arbitrary file upload is one of the most severe vulnerability classes a store pl
 * No separate recipient-delivery flow -- the code is emailed to the purchaser only, with no "send to a friend's email with a gift message" field; the purchaser can forward the email themselves
 * No redemption audit ledger -- only the current balance is stored, not a history of every order that redeemed against a code
 
+= Enjoying this plugin? =
+If it helps your site, please consider [leaving an honest review on WordPress.org](https://wordpress.org/support/plugin/hdwebmobile-gift-cards/reviews/#new-post) -- it helps other WordPress users find it. Found a problem or have an idea? Please [open a support topic](https://wordpress.org/support/plugin/hdwebmobile-gift-cards/) first so it can be fixed.
+
 == Installation ==
 
 1. Upload the plugin files to the `/wp-content/plugins/hdwebmobile-gift-cards` directory, or install the plugin through the WordPress plugins screen directly.
