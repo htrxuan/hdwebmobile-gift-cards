@@ -5,7 +5,7 @@ Tags: woocommerce, gift cards, store credit, coupon, digital products
 Requires at least: 6.9
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires Plugins: woocommerce
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -68,6 +68,9 @@ Go to **WooCommerce > Gift Cards** (Screenshot 4) to search issued codes, filter
 4. The admin Gift Cards list, with the manual-issue form expanded.
 
 == Changelog ==
+
+= 1.0.1 =
+* The WooCommerce > HDWebmobile Overview page now has a short introduction to Store Guardian, a separate paid plugin that test-buys from your checkout every hour. It is hidden once Store Guardian is active. No changes to this plugin's own features.
 
 = 1.0.0 =
 * Initial release: gift-card product checkbox, code issuance on order completion, redemption via WooCommerce's native coupon field, partial-balance tracking, optional expiry, My Account gift-card list, admin list table and manual issuance.

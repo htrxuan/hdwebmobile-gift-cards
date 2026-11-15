@@ -4,7 +4,7 @@
  * Plugin Name: HDWebmobile Gift Cards
  * Plugin URI: https://hdwebmobile.com/plugins/hdwebmobile-gift-cards/
  * Description: Sell digital gift cards redeemed through WooCommerce's own native coupon field -- no custom checkout UI, no file uploads.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: htrxuan - Han Tran
  * Author URI: https://hdwebmobile.com/
  * License: GPLv2 or later
@@ -23,7 +23,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define Constants
-define('HDGC_VERSION', '1.0.0');
+define('HDGC_VERSION', '1.0.1');
 define('HDGC_DB_VERSION', '1.0.0');
 define('HDGC_PLUGIN_FILE', __FILE__);
 define('HDGC_PLUGIN_DIR', plugin_dir_path(__FILE__));
